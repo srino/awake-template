@@ -10,11 +10,11 @@ export default {
     }
   ],
   link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
-  script: [
-    {
-      src: 'https://identity.netlify.com/v1/netlify-identity-widget.js',
-      defer: true,
-      id: 'netlify-identity-widget-script'
-    }
-  ]
+  // script: [
+  //   {
+  //     src: 'https://identity.netlify.com/v1/netlify-identity-widget.js',
+  //     defer: true,
+  //     id: 'netlify-identity-widget-script'
+  //   }
+  // ]
 }
