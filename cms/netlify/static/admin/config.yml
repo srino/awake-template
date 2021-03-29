@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: srino/awake-template # Branch to update (optional; defaults to master)
-# This line should *not* be indented
+  branch: main # This line should *not* be indented
 media_folder: "assets/uploads" # Media files will be stored in the repo under images/uploads
 public_folder: "/uploads" # The src attribute for uploaded media will begin with /images/uploads
 collections:
