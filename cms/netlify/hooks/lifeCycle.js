@@ -19,6 +19,9 @@ export default {
   //     .getElementById('netlify-identity-widget-script')
   //     .addEventListener('load', initNetlifyId)
   // },
+  mounted() {
+    document.location.href = '/admin/'
+  },
   beforeUpdate() {},
   updated() {},
   beforeDestroy() {},
